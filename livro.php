@@ -2,8 +2,8 @@
 
 class Livro{
 
-private $titulo
-private $autor
+private $titulo;
+private $autor;
 private $ano_publicacao;
 private $preco;
 
