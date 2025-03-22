@@ -29,9 +29,22 @@ public function getPreco(){
     return $this->preco;
 }
 
-public function setPreco($valor){
+public function setPreco($arg){
     $this->preco = $valor;
 }
+
+public function setTitulo($arg){
+    $this->titulo = $valor;
+}
+
+public function setAutor($arg){
+    $this->autor = $valor;
+}
+
+public function setAno_publicacao($arg){
+    $this->ano_publicacao = $valor;
+}
+
 
 $Book = new Livro();
 $Book2 = new Livro();
